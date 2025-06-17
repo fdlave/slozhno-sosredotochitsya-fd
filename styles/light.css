@@ -25,7 +25,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --rec-element-color: transparent;
   --accent-color: #FF8DCB;

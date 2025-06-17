@@ -9,7 +9,7 @@
   background-color: var(--bg-color);
   background-repeat: no-repeat;
   font-size: var(--font-size);
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family), monospace;
   font-weight: var(--font-weight-regular);
 }
 
@@ -97,7 +97,8 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-menu-color);
+  border: 1px solid currentColor;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:focus {
@@ -167,6 +168,7 @@
   font-size: var(--font-size);
   color: var(--text-color);
   line-height: 23.4px;
+  margin-block-start: 10px;
 }
 
 .text_link {
@@ -221,8 +223,9 @@
   grid-template-columns: 1fr;
   align-items: center;
   text-align: center;
-  min-block-size: 668px;
+  min-height: 668px;
   padding: 10px;
+  block-size: 100vh;
 }
 
 .footer_title {
